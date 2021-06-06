@@ -6,7 +6,7 @@ import {Row, Col} from 'react-flexbox-grid';
 
 class TripListOptions extends React.Component {
   handleTags(tag, checked){
-    this.props.changeTag(tag, checked);
+    this.props.changeTag ({tag, checked});
   }
 
   handleDuration(type, value){
