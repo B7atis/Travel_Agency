@@ -1,0 +1,38 @@
+{
+  "orders": [
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "all-inclusive",
+        "security",
+        "pool",
+        "kitchen"
+      ],
+      "adults": 4,
+      "children": 0,
+      "name": "Bartosz",
+      "contact": "452368987",
+      "start-date": "2021-06-17T22:00:00.000Z",
+      "totalCost": "$137,021",
+      "id": 1
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "house",
+      "features": [
+        "security"
+      ],
+      "adults": "2",
+      "children": 0,
+      "name": "Bartosz",
+      "contact": "4587412369",
+      "start-date": "",
+      "totalCost": "$143,866",
+      "tripName": "Surprising jaunt in admirable United Arab Emirates",
+      "tripId": "5cc1d10107e2be6064ff9129",
+      "tripCountry": "United Arab Emirates",
+      "id": 2
+    }
+  ]
+}
