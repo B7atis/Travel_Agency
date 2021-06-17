@@ -12,7 +12,7 @@
     "build": "webpack --mode production",
     "lint": "eslint src/",
     "test": "jest --colors",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watch --colors",
     "test:coverage": "jest --coverage --colors"
   },
   "husky": {
