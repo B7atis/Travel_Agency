@@ -26,7 +26,7 @@ describe('DaysToSummer', () => {
 
   it('should render description from props', () => {
     const component = shallow(<DaysToSummer {...mockProps} />);
-    expect(component.find(select.summerDescription).text()).toEqual(mockProps.descriptionDays);
+    expect(component.find(select.summerDescription).text()).toEqual(mockProps.descriptionDay);
   });
 });
 
@@ -91,7 +91,7 @@ const checkComponentAtDate = (date, expected) => {
 
     const component = shallow(<DaysToSummer />);
     expect(component.find(select.daysToSummer)).toEqual(expected);
-    console.log(component.debug());
+    // console.log(component.debug());
 
     global.Date = trueDate;
   });

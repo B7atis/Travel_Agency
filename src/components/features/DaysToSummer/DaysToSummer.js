@@ -12,7 +12,7 @@ class DaysToSummer extends Component {
 
   getCountdownDays() {
     const currentDate = new Date();
-    const startSummer = new Date(Date.UTC(currentDate.getUTCFullYear(), 5, 22, 0, 0, 0, 0));
+    const startSummer = new Date(Date.UTC(currentDate.getUTCFullYear(), 5, 21, 0, 0, 0, 0));
     const endSummer = new Date(Date.UTC(currentDate.getUTCFullYear(), 8, 24, 0, 0, 0, 0))-1;
 
     if(currentDate > endSummer) {

@@ -90,7 +90,7 @@ for(let type in optionTypes){
     it(`renders ${optionTypes[type]}`, () => {
       expect(subcomponent).toBeTruthy();
       expect(subcomponent.length).toBe(1);
-      console.log(subcomponent.debug());
+      // console.log(subcomponent.debug());
     });
 
     /* type-specific tests */
